@@ -1,0 +1,33 @@
+
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Dropbox Tech Stack </title>
+  <meta charset="UTF-8">
+</head>
+<body>
+Dropbox is a cloud based service that allows users to sync files on devices to the cloud. This saves space on mobile devices, that often have somewhat limited storage and also allows for files to be easily shared. Files can be uploaded to Dropbox using a web app, as well as a Dropbox client. From there, files are stored using Amazon’s S3 storage system. The details of S3’s design are not made public because of security issues, however, it is estimated that the system stores over 2 trillion objects (Amazon Simple Storage Service). A Dropbox can also be integrated into applications made with Python, Java, JavaScript, and many other programming languages (Dropbox). 
+Initially, Dropbox was built using Python and Go, but later, added features were written in CoffeeScript (Wheeler, 2012). Dropbox’s tech stack is rather large, using at least five different tools for application and data, utilities, devops, and other business tools. One of the tools used is the Amazon CloudFront, which is used as the service’s CDN. Dropbox itself can also be used as a CDN for some blog websites, such as WordPress, as well. They do not use any open source software or source control software (Dropbox’s Tech Stack). 
+	While Dropbox has been praised by many for convenience and ease of use, the service has faced criticisms for security, or potential security issues. An independent security investigator, Derek Newton, began researching file synchronization tools, such as Dropbox. His findings concluded that gaining access to a user’s Dropbox account could be as simple as gaining access to a configuration file. This is important because fixing any security breaches is not as simple as changing a password. The only way to stop the hacker from continuing to access the account would be to stop allowing a certain device access to Dropbox (Newton, 2011).  However, dropbox.com explains the process of uploading and accessing files, and assures users that all of their files are protected using secure data transfer and encryption, as well as other security measures ( How Does the Dropbox Service Work, 2016). 
+
+		
+
+
+			Works Cited 
+
+"Amazon Simple Storage Service (S3) - Object Storage." Amazon Web Services, Inc. Amazon, n.d. Web. 19 Mar. 2016.
+
+"Dropbox - About Dropbox." Dropbox. N.p., n.d. Web. 19 Mar. 2016.
+
+"Dropbox's Tech Stack." Stackshare. N.p., n.d. Web. 20 Mar. 2016.
+
+"How Does the Dropbox Service Work? (Dropbox Help Center)." Dropbox. N.p., n.d. Web. 20 Mar. 2016.
+
+Newton, Derek. "Dropbox Authentication: Insecure by Design." Derek Newton. N.p., 7 Apr. 2011. Web. 19 Mar. 2016.
+
+Wheeler, Dan. "Dropbox Dives into CoffeeScript." Blog.dropbox.com. Dropbox, Inc., 13 Sept. 2012. Web. 19 Mar. 2016.
+
+</body>
+
+</html>
