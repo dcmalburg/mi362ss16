@@ -1,0 +1,6 @@
+Hosted on Heroku at ancient-dawn-27022.herokuapp.com (100)
+Custom Subdomain at dcmalburg.crabdancing.com (100)
+4 HTML pages- one is the homepage with details about the website overall, and the others are lists of best Movies, Books, and Songs (300)
+Custom CSS or Bootstrap Design - My CSS design is saved as index.css (200)
+Use a Third Party Font- My font for all pages is a GoogleFont (50)
+Custom programming language- My project uses a PHP buildpack from Heroku and PHP files (600)
